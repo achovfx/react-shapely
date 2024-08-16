@@ -1,0 +1,46 @@
+.section-container {
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 462px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.section-container h3 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.section-container p {
+    font-size: 14px;
+    width: 70%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.section-container a {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    padding: 13px 26px;
+    margin: 3px;
+    background-color: #745cf9;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.section-container a:hover {
+    background-color: #6551da;
+}

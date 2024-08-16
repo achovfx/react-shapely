@@ -1,0 +1,58 @@
+.LimitlessContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 96px;
+}
+
+.LimitlessContainer .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    gap: 20px;
+}
+
+.LimitlessContainer .details h3 {
+    font-size: 30px;
+    color: #0e1015;
+}
+
+.LimitlessContainer .details p {
+    font-size: 14px;
+    color: #AFB6BB;
+}
+
+.LimitlessContainer .details a {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    padding: 13px 26px;
+    margin: 3px;
+    background-color: #745CF9;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.LimitlessContainer .details a:hover {
+    background-color: #6954e0;
+    transition: .3s;
+}
+
+.limitlessImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.limitlessImg img {
+    width: 100%;
+}

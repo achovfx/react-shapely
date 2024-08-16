@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    height: 100%;
+    color: #fff;
+}
+
+.header-mid .title h1 {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+}
+
+.header-mid .title h1 p {
+    display: inline-block;
+}
+
+.header-mid .desc {
+    font-size: 14px;
+}
+
+.header-mid .btns {
+    display: flex;
+    gap: 5px;
+}
+
+.header-mid .btns a {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px;
+    padding: 13px 26px;
+    margin: 3px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.header-mid .btns a:last-child:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .3s;
+}

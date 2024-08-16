@@ -1,0 +1,30 @@
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    height: 183px;
+    width: 100%;
+    color: #fff;
+}
+
+.footer-container .title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-container .socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    cursor: pointer;
+}
+
+.footer-container .socials svg {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(152, 133, 255);
+    border-radius: 12px;
+}

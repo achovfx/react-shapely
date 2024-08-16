@@ -1,0 +1,45 @@
+.team-container {
+    height: 466.969px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url("https://149842022.v2.pressablecdn.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg");
+    color: #fff;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.desc {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+}
+
+div.image {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.image img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.image p {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+.Projectimg {
+    width: 300px;
+    height: 210px;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 1) 71%);
+    position: relative;
+}
+
+.Projectimg .name {
+    z-index: 10;
+}
+
+.Projectimg .name p {
+    position: absolute;
+    opacity: 0;
+    top: 35%;
+    left: 35%;
+    font-size: 24px;
+    transition: .3s;
+}
+
+.Projectimg img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.Projectimg:hover>img {
+    filter: opacity(.3);
+    transition: .3s;
+}
+
+.Projectimg:hover p {
+    opacity: 1;
+    transition: .3s;
+}
